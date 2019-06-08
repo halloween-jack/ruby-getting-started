@@ -9,8 +9,6 @@
     "postdeploy": "bin/rails db:schema:load db:seed"
   },
   "env": {
-    "DATABASE_URL": {
-      "required": true
-    }
+    "DISABLE_DATABASE_ENVIRONMENT_CHECK": "1"
   }
 }
